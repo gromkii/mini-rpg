@@ -21,4 +21,13 @@ public class Fighter extends PlayerCharacter {
     stats.put("speed", 13);
     stats.put("luck", 12);
   }
+
+  public Fighter(String fighterName, String fighterClass) {
+    characterName = fighterName;
+    characterClass = fighterClass;
+    stats.put("strength", 18);
+    stats.put("intelligence", 11);
+    stats.put("speed", 13);
+    stats.put("luck", 12);
+  }
 }
